@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background: #f0f2f5; */
+    /* z-index: +5; */
+}
+.body{
+    background-color: #f0f2f5;
+}
+
+.container{
+    display: flex;
+    /* border: 2px solid red; */
+    margin-top: 150px;
+    justify-content: space-evenly;
+
+}
+
+.container .facebook_name img{
+    height: 106px;
+    position: relative;
+    left: -30px;
+
+}
+
+.container .facebook_name h3{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    color: #212529;
+}
+
+/* creating the login section */
+
+.container .login_page{
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+}
